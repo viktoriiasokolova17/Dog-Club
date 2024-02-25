@@ -1,5 +1,13 @@
 /*Base*/
 
+:root {
+    --color-brand: #FF9F0E;
+    --color-primary-dark: #181817;
+    --color-primary-light: #FFFFFF;
+    --color-secondary-brand: #FCB62A;
+}
+
+
 ul {
     list-style-type: none;
 }
@@ -7,25 +15,25 @@ ul {
 /*Button*/
 
 .button {
-    color: #FFFFFF;
-    background-color: #FF9F0E;
-    border: 2px solid #FF9F0E;
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-brand);
     border-radius: 8px;
 }
 
 .button:hover {
-    color: #FCB62A;
+    color: var(--color-secondary-brand);
     background-color: transparent;
 }
 
 /*Link*/
 
 .link {
-    color: #181817;
+    color: var(--color-primary-dark);;
 }
 
 .link:hover {
-    color: #FF9F0E;
+    color: var(--color-brand);
 }
 
 /*Header*/
