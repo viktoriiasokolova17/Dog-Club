@@ -1,9 +1,32 @@
 /*Base*/
 
+ul {
+    list-style-type: none;
+}
+
 /*Button*/
 
+.button {
+    color: #FFFFFF;
+    background-color: #FF9F0E;
+    border: 2px solid #FF9F0E;
+    border-radius: 8px;
+}
+
+.button:hover {
+    color: #FCB62A;
+    background-color: transparent;
+}
 
 /*Link*/
+
+.link {
+    color: #181817;
+}
+
+.link:hover {
+    color: #FF9F0E;
+}
 
 /*Header*/
 
