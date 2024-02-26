@@ -2,10 +2,12 @@
 
 :root {
     --color-brand: #FF9F0E;
+    --color-brand-background:#FFFAF3;
     --color-primary-dark: #181817;
     --color-primary-light: #FFFFFF;
     --color-secondary-brand: #FCB62A;
     --color-secondary-gray: #839AA9;
+
 }
 
 body {
@@ -13,6 +15,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin: 0;
+    background-color: var(--color-brand-background);
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -106,7 +109,7 @@ h2 {
 .relationship-section-container {
     display: flex;
 }
-.relationship-section-content{
+.relationship-section-content {
     flex-basis: calc(100%  / 2);
 }
 
@@ -119,7 +122,7 @@ h2 {
 .relationship-section-image {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 /*Info relationship section*/
@@ -170,18 +173,42 @@ h2 {
 }
 
 .service-card {
-    padding: 24px;
+    padding-top: 48px;
+    text-align: center;
     border: 1px solid lightgray;
     border-radius: 16px;
+    width: 240px;
+    height: 240px;
+    background-color: var(--color-primary-light);
+}
+
+.service-card-button{
+    padding-top: 48px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: 240px;
+    height: 240px;
+}
+
+.service-name {
+    color: var(--color-brand);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 48px;
 }
 
 .service-section-button {
+    padding: 48px;
     color: var(--color-brand);
     background-color: transparent;
     font-size: 24px;
     border-color: var(--color-brand);
-    /*width: 124px;
-    height: 24px;*/
+    bottom: 0;
+    width: 240px;
+    height: 240px;
+    display: flex;
+        align-items: flex-end;
 }
 /*Customer-section*/
 .customer-section-title {
