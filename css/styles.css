@@ -134,10 +134,6 @@ h2 {
     display: flex;
 }
 
-.info-relationship-section-content {
-    /*flex-basis: calc(100% / 2);*/
-}
-
 .info-relationship-section-title {
     /*font-size: 56px;*/
     font-weight: 400;
@@ -224,6 +220,14 @@ h2 {
     text-align: center;
 }
 
+.customer-section-container {
+    /*display: flex;*/
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 300px;
+}
+
 .customer-list{
     text-align: center;
     display: flex;
@@ -236,22 +240,19 @@ h2 {
     height: 456px;
 }
 
-.customer-title {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.5;
-
+.customer-card {
+    width: 344px;
+    height: 456px;
 }
 
-.customer-text{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+.visually-hidden {
+    overflow: hidden;
 }
 
 /*Contact section*/
 .contact-section-title {
     text-align: center;
+    margin-top: 130px;/*delete*/
 }
 
 .contact-section-text {
