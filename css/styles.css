@@ -167,10 +167,14 @@ h2 {
 }
 
 .service-item {
-    flex-basis: calc((100% - 40px) / 4);
+    flex-basis: calc((100% - 40px) / 5);
     width: 240px;
     height: 240px;
 }
+
+/*.service-item:last-child {
+    border: none;
+}*/
 
 .service-card {
     padding-top: 48px;
@@ -180,11 +184,12 @@ h2 {
     width: 240px;
     height: 240px;
     background-color: var(--color-primary-light);
+    
 }
 
 .service-card-button{
     padding-top: 48px;
-    border: 1px solid lightgray;
+    border: 1px solid lightgray; /*delete*/
     border-radius: 16px;
     width: 240px;
     height: 240px;
@@ -199,17 +204,21 @@ h2 {
 }
 
 .service-section-button {
-    padding: 48px;
+    margin-top: 220px;
     color: var(--color-brand);
+    text-align: center;
     background-color: transparent;
     font-size: 24px;
     border-color: var(--color-brand);
     bottom: 0;
     width: 240px;
-    height: 240px;
+    height: 27px;
     display: flex;
-        align-items: flex-end;
+    align-items: flex-end;
 }
+
+
+
 /*Customer-section*/
 .customer-section-title {
     text-align: center;
