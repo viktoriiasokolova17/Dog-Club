@@ -240,6 +240,10 @@ h2 {
     height: 456px;
 }
 
+/*.customer-item:last-child {
+    padding: auto;
+}*/
+
 .customer-card {
     width: 344px;
     height: 456px;
@@ -265,6 +269,36 @@ h2 {
     display: block;
 }
 
+/*Carousel*/
+.carousel-button {
+    margin-top: 210px;/*delete*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background-color: var(--color-secondary-gray);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel-button:first-child {
+    gap: 30px;
+}
+.carousel-arrow {
+    fill: var(--color-brand-background);
+
+}
+
+.carousel-button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.carousel-button:hover .carousel-arrow {
+    fill: var(--color-secondary-gray);
+}
+
+
 /*Footer*/
 
 .footer-container {
@@ -287,3 +321,11 @@ h2 {
     flex-grow: 1;
     justify-content: center;
 }
+
+.address-icon {
+    fill: var(--color-brand);
+}
+
+.address-icon:hover {
+    fill: var(--color-secondary-gray);
+} 
