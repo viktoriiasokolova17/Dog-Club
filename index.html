@@ -32,6 +32,7 @@
             <li><a class="link" href="#">Contact</a></li>
           </ul>
         </nav>
+        <img src="./images/header.svg" alt="Header icon" />
         <button class="button modal-btn-open" type="button">Contact us</button>
       </div>
     </header>
@@ -233,7 +234,31 @@
 
           <ul class="footer-contact-form">
             <li>
-              <p>Contact form</p>
+              <div class="footer-form-field">
+                <label
+                  class="form-label visually-hidden"
+                  for="user-email"
+                ></label>
+                <input
+                  class="form-input-email form-input"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Your email"
+                />
+              </div>
+
+          <div class="footer-form-field">
+            <label class="form-label visually-hidden" for="user-email"></label>
+            <input
+              class=" form-input-your-cmc form-input"
+              type="text"
+              name="user-your-cmc"
+              id="user-your-cmc"
+              placeholder="Your cmc"
+            />
+          </div>
+
             </li>
             <li>
               <button class="footer-contact-form-button button" type="button">
@@ -241,7 +266,11 @@
               </button>
             </li>
             <li>
-              <p>I agree to the privacy policy</p>
+              <label>
+              <p class="form-terms-text">
+                <input type="checkbox" />I agree to the privacy policy
+              </p>
+            </label>
             </li>
           </ul>
           <img src="./images/footer.svg" alt="" />
@@ -267,7 +296,6 @@
               id="user-name"
               placeholder="Your name"
             />
-           
           </div>
 
           <div class="form-field">
@@ -306,9 +334,10 @@
           <div class="form-field form-field-button">
             <button class="form-button button" type="submit">Contact us</button>
             <label>
-              <p class="form-terms-text"> <input type="checkbox" />I agree to the privacy policy</p>
+              <p class="form-terms-text">
+                <input type="checkbox" />I agree to the privacy policy
+              </p>
             </label>
-
           </div>
         </form>
       </div>
