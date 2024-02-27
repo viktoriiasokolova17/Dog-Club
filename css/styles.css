@@ -18,6 +18,10 @@ body {
     background-color: var(--color-brand-background);
 }
 
+a {
+    display: inline-block;
+}
+
 h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
 }
@@ -185,7 +189,6 @@ h2 {
 
 .service-card-button{
     padding-top: 48px;
-    border: 1px solid lightgray; /*delete*/
     border-radius: 16px;
     width: 240px;
     height: 240px;
@@ -205,12 +208,15 @@ h2 {
     text-align: center;
     background-color: transparent;
     font-size: 24px;
-    border-color: var(--color-brand);
+    border: 0;
     bottom: 0;
-    width: 240px;
-    height: 27px;
+    width: 174px;
+    height: 26px;
     display: flex;
     align-items: flex-end;
+    background-image: url(/images/more\ services.svg);
+    cursor: pointer;
+    outline: none;
 }
 
 
