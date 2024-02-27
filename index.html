@@ -128,9 +128,7 @@
               </li>
               <li class="service-item">
                 <article class="service-card-button">
-                  <button class="service-section-button" type="button">
-                    
-                  </button>
+                  <button class="service-section-button" type="button"></button>
                 </article>
               </li>
             </ul>
@@ -238,26 +236,84 @@
               <p>Contact form</p>
             </li>
             <li>
-              <button class="footer-contact-form-button button" type="button">Contact us</button>
+              <button class="footer-contact-form-button button" type="button">
+                Contact us
+              </button>
             </li>
             <li>
               <p>I agree to the privacy policy</p>
             </li>
           </ul>
-          <img src="./images/footer.svg" alt="">
-
-          
+          <img src="./images/footer.svg" alt="" />
         </nav>
       </div>
     </footer>
 
     <div class="backdrop">
       <div class="modal">
-        <button class="modal-btn-close" type="button">Close</button>
+        <button class="modal-btn-close" type="button"></button>
+
+        <!-- form -->
+
+        <h2 class="modal-title">Our experts will take care of your friend</h2>
+        <p class="modal-text">Fill out the form so we can contact you!</p>
+        <form name="contact-form" class="contact-form" autocomplete="off">
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-name"></label>
+            <input
+              class="form-input-name form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Your name"
+            />
+           
+          </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="pet-name"></label>
+            <input
+              class="form-input-pet-name form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Pet name"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-tel"></label>
+            <input
+              class="form-input-tel form-input"
+              type="tel"
+              id="user-tel"
+              name="user-tel"
+              placeholder="Your phone"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label visually-hidden" for="user-email"></label>
+            <input
+              class="form-input-email form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Your email"
+            />
+          </div>
+
+          <div class="form-field form-field-button">
+            <button class="form-button button" type="submit">Contact us</button>
+            <label>
+              <p class="form-terms-text"> <input type="checkbox" />I agree to the privacy policy</p>
+            </label>
+
+          </div>
+        </form>
       </div>
     </div>
 
     <script src="./js/modal.js"></script>
-
   </body>
 </html>
