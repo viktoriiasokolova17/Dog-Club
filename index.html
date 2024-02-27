@@ -193,10 +193,82 @@
           <p class="contact-section-text customer-text">
             Fill out the form so we can contact you!
           </p>
-          <p>Contact form</p>
-          <button class="contact-section-button button" type="button">
+
+          <!-- form -->
+          <div class="contact-section-form-field">
+            <img
+              class="contact-section-left"
+              src="./images/contact-section-left.svg"
+              alt="Dog from contact section left"
+            />
+            <div class="contact-section-form-field-contact-form">
+              <div class="form-field">
+                <label
+                  class="form-label visually-hidden"
+                  for="user-name"
+                ></label>
+                <input
+                  class="form-input-name form-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  placeholder="Your name"
+                />
+              </div>
+
+              <div class="form-field">
+                <label
+                  class="form-label visually-hidden"
+                  for="pet-name"
+                ></label>
+                <input
+                  class="form-input-pet-name form-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  placeholder="Pet name"
+                />
+              </div>
+
+              <div class="form-field">
+                <label
+                  class="form-label visually-hidden"
+                  for="user-tel"
+                ></label>
+                <input
+                  class="form-input-tel form-input"
+                  type="tel"
+                  id="user-tel"
+                  name="user-tel"
+                  placeholder="Your phone"
+                />
+              </div>
+
+              <div class="form-field">
+                <label
+                  class="form-label visually-hidden"
+                  for="user-email"
+                ></label>
+                <input
+                  class="form-input-email form-input"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Your email"
+                />
+              </div>
+              <button class="contact-section-button button" type="button">
             Contact us
           </button>
+            </div>
+            <img
+              class="contact-section-right"
+              src="./images/contact-section-right.svg"
+              alt="Dog from contact section right"
+            />
+          </div>
+
+          
         </div>
       </section>
     </main>
@@ -248,17 +320,19 @@
                 />
               </div>
 
-          <div class="footer-form-field">
-            <label class="form-label visually-hidden" for="user-email"></label>
-            <input
-              class=" form-input-your-cmc form-input"
-              type="text"
-              name="user-your-cmc"
-              id="user-your-cmc"
-              placeholder="Your cmc"
-            />
-          </div>
-
+              <div class="footer-form-field">
+                <label
+                  class="form-label visually-hidden"
+                  for="user-email"
+                ></label>
+                <input
+                  class="form-input-your-cmc form-input"
+                  type="text"
+                  name="user-your-cmc"
+                  id="user-your-cmc"
+                  placeholder="Your cmc"
+                />
+              </div>
             </li>
             <li>
               <button class="footer-contact-form-button button" type="button">
@@ -267,10 +341,10 @@
             </li>
             <li>
               <label>
-              <p class="form-terms-text">
-                <input type="checkbox" />I agree to the privacy policy
-              </p>
-            </label>
+                <p class="form-terms-text">
+                  <input type="checkbox" />I agree to the privacy policy
+                </p>
+              </label>
             </li>
           </ul>
           <img src="./images/footer.svg" alt="" />

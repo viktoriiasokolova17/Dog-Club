@@ -270,6 +270,35 @@ h2 {
     color: var(--color-secondary-gray);
 }
 
+.contact-section-left {
+    float: left;
+   /* width: 490px;
+    height: 520px;*/
+    width: 300px;
+    height: 300x;
+    
+}
+
+.contact-section-right {
+    float: right;
+    /*width: 490px;
+    height: 520px;*/
+    width: 300px;
+    height: 300x;
+}
+
+.contact-section-form-field {
+    display: flex;
+    text-align: center;
+   /* flex-basis: calc (100% / 3);*/
+    margin: 0 auto;
+    
+}
+
+.contact-section-form-field-contact-form {
+    /*display: auto;*/
+}
+
 .contact-section-button {
     margin: 0 auto;
     display: block;
@@ -337,7 +366,7 @@ h2 {
     padding: 0;
     font-weight: 16px;
     display: block;
-     margin: 0 auto 24px;
+    margin: 0 auto 24px;
      /*   margin: auto;*/
     
 }
