@@ -327,10 +327,6 @@ h2 {
     cursor: pointer;
 }
 
-.carousel-button-next {
-    transform: rotate(180deg);
-}
-
 .carousel-button:first-child {
     gap: 30px;
 }
@@ -341,7 +337,7 @@ h2 {
 }
 
 .carousel-button:hover {
-    background-color: var(--color-primary-light);
+    background-color: var(--color-primary-dark);
 }
 
 .carousel-button:hover .carousel-arrow {
