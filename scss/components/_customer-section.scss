@@ -1,0 +1,37 @@
+/*Customer-section*/
+.customer-section-title {
+    text-align: center;
+}
+
+.customer-section-container {
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+}
+
+.customer-list {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.customer-item {
+    flex-basis: calc((100% - 40px) / 3);
+    width: 344px;
+    height: 456px;
+}
+
+/*.customer-item:last-child {
+    padding: auto;
+}*/
+
+.customer-card {
+    width: 344px;
+    height: 456px;
+}
+
+.visually-hidden {
+    overflow: hidden;
+}

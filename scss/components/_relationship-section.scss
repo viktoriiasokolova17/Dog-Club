@@ -1,0 +1,25 @@
+/*Relationship section*/
+.relationship-section {
+    display: flex;
+    justify-content: center;
+}
+
+.relationship-section-container {
+    display: flex;
+}
+
+.relationship-section-content {
+    flex-basis: calc(100% / 2);
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.relationship-section-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

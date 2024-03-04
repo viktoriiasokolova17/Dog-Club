@@ -1,0 +1,35 @@
+/*Carousel*/
+.carousel-button {
+    margin-top: 210px;
+    /*delete*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background-color: var(--color-secondary-gray);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-button-next {
+    transform: rotate(180deg);
+}
+
+.carousel-button:first-child {
+    gap: 30px;
+}
+
+.carousel-arrow {
+    fill: var(--color-brand-background);
+
+}
+
+.carousel-button:hover {
+    background-color: var(--color-primary-light);
+}
+
+.carousel-button:hover .carousel-arrow {
+    fill: var(--color-secondary-gray);
+}

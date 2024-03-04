@@ -1,0 +1,66 @@
+/*Service section*/
+.service-section-title {
+    text-align: center;
+}
+
+.service-section-container {
+    display: flex;
+}
+
+.service-list {
+    display: flex;
+    gap: 20px;
+}
+
+.service-item {
+    flex-basis: calc((100% - 40px) / 5);
+    width: 240px;
+    height: 240px;
+}
+
+/*.service-item:last-child {
+    border: none;
+}*/
+
+.service-card {
+    padding-top: 48px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: 240px;
+    height: 240px;
+    background-color: var(--color-primary-light);
+
+}
+
+.service-card-button {
+    padding-top: 48px;
+    border-radius: 16px;
+    width: 240px;
+    height: 240px;
+}
+
+.service-name {
+    color: var(--color-brand);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+
+.service-section-button {
+    margin-top: 220px;
+    color: var(--color-brand);
+    text-align: center;
+    background-color: transparent;
+    font-size: 24px;
+    border: 0;
+    bottom: 0;
+    width: 174px;
+    height: 26px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/images/more\ services.svg);
+    cursor: pointer;
+    outline: none;
+}
